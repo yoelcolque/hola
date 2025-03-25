@@ -1,0 +1,6 @@
+services:
+  service1:
+    image: oconsl/mini-paint
+    ports:
+      - 8080:80
+    container_name: pain_app
